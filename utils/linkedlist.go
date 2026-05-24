@@ -11,7 +11,7 @@ func NewPrevNode(v int, p *PrevNode) *PrevNode {
 
 type NextNode struct {
 	value int
-	next *NextNode
+	next  *NextNode
 }
 
 func NewNextNode(v int) *NextNode {

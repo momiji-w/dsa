@@ -6,7 +6,7 @@ type sortTest struct {
 	Expected []int
 }
 
-var TestTopics = []sortTest{
+var SortingTest = []sortTest{
 	{
 		Topic:    "Regular unsorted array",
 		Arr:      []int{5, 2, 9, 1, 5, 6},

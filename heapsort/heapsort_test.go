@@ -1,4 +1,4 @@
-package insertionsort
+package heapsort
 
 import (
 	"github.com/momiji-w/dsa/utils"
@@ -6,10 +6,10 @@ import (
 	"testing"
 )
 
-func TestInsertionSort(t *testing.T) {
+func TestHeapsort(t *testing.T) {
 	for _, v := range utils.SortingTest {
 		k := v.Arr
-		InsertionSort(k)
+		Heapsort(k)
 		if !slices.Equal(k, v.Expected) {
 			t.Errorf("Topic: %s, expecting %v, got %v", v.Topic, v.Expected, k)
 		}

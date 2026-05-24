@@ -6,7 +6,7 @@ import (
 
 type node struct {
 	value int
-	next *node
+	next  *node
 }
 
 func newNode(v int) *node {

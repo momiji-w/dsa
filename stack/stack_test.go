@@ -7,7 +7,7 @@ func TestStack(t *testing.T) {
 	s.Push(100)
 	p, err := s.Peek()
 
-	if err != nil{
+	if err != nil {
 		t.Fatalf("%s", err.Error())
 	}
 	if p != 100 {
