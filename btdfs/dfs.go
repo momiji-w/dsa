@@ -11,12 +11,15 @@ func (p *path) append(v int) {
 }
 
 func walk(node *utils.BinaryNode, path *path) {
+	// base
 	if node == nil {
 		return
 	}
 
 	walk(node.Left, path)
+
 	path.append(node.Value)
+
 	walk(node.Right, path)
 }
 

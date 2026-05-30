@@ -6,6 +6,5 @@ func LinearSearch(arr []int, target int) int {
 			return i
 		}
 	}
-
 	return -1
 }
