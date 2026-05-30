@@ -1,8 +1,8 @@
 package utils
 
 type Vertex struct {
-	to     int
-	weight int
+	To     int
+	Weight int
 }
 
 type Graph [][]Vertex
@@ -16,36 +16,36 @@ type Graph [][]Vertex
 //	  (2) --- (3) ---- (6)
 var G = Graph{
 	{
-		{to: 1, weight: 3},
-		{to: 2, weight: 1},
+		{To: 1, Weight: 3},
+		{To: 2, Weight: 1},
 	},
 	{
-		{to: 0, weight: 3},
-		{to: 2, weight: 4},
-		{to: 4, weight: 1},
+		{To: 0, Weight: 3},
+		{To: 2, Weight: 4},
+		{To: 4, Weight: 1},
 	},
 	{
-		{to: 1, weight: 4},
-		{to: 3, weight: 7},
-		{to: 0, weight: 1},
+		{To: 1, Weight: 4},
+		{To: 3, Weight: 7},
+		{To: 0, Weight: 1},
 	},
 	{
-		{to: 2, weight: 7},
-		{to: 4, weight: 5},
-		{to: 6, weight: 1},
+		{To: 2, Weight: 7},
+		{To: 4, Weight: 5},
+		{To: 6, Weight: 1},
 	},
 	{
-		{to: 1, weight: 1},
-		{to: 3, weight: 5},
-		{to: 5, weight: 2},
+		{To: 1, Weight: 1},
+		{To: 3, Weight: 5},
+		{To: 5, Weight: 2},
 	},
 	{
-		{to: 6, weight: 1},
-		{to: 4, weight: 2},
-		{to: 2, weight: 18},
+		{To: 6, Weight: 1},
+		{To: 4, Weight: 2},
+		{To: 2, Weight: 18},
 	},
 	{
-		{to: 3, weight: 1},
-		{to: 5, weight: 1},
+		{To: 3, Weight: 1},
+		{To: 5, Weight: 1},
 	},
 }
